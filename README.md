@@ -15,7 +15,7 @@ be notified.
 
 Add an entry to your crontab (with `crontab -e`). Example :
 
-    */15 * * * * php /path/to/down-checker/launcher.php > /path/to/cron/down-checker/output.log
+    */15 * * * * php /path/to/down-checker/launcher.php > /path/to/down-checker/output.log
     
 The cron job will be executed each 15 minutes.
 
