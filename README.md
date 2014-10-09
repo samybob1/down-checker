@@ -17,6 +17,7 @@ be notified.
 
     public static $websites = array(
         'inck.fr',
+        'free.fr/404',
         'smaltcreation.fr',
         'google.fr/404',
         'smaltcreation.com',
