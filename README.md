@@ -11,6 +11,14 @@ be notified.
 * Add your websites (file __launcher.php__ : `public static $websites`).
 * Launch with `php launcher.php` or `php launcher.php > output.log`.
 
+# Configure a cron job
+
+Add an entry to your crontab (with `crontab -e`). Example :
+
+    */15 * * * * php /path/to/down-checker/launcher.php > /path/to/cron/down-checker/output.log
+    
+The cron job will be executed each 15 minutes.
+
 # Example
 
 #### Configuration :
